@@ -1,0 +1,33 @@
+
+Funzionalità del Sistema (Push):
+
+    Comandi Push:
+
+		git status
+		git add .
+		git commit -m ""
+
+		Nel messaggio di commit -m "" andrà inserito di default fisso:
+			aggiunto il gg/mm/yy (giorno mese anno: data odierna)
+		
+
+	1 Push Singolo
+
+		1 Impostazione cartella di lavoro: pathFile + dir_da_pushare
+		1.1 pushare la cartella
+			
+	2 Push Scelta / Multiplo
+
+		1 Scegliere se 1) pushare multiplo 2) pushare a Scelta
+			1.1 Pushare repository a scelta
+				1.2.1 Controllare se l'utente ha scelto il NUMERO della cartella o il NOME della cartella
+					1.2.1.1 NUMERO
+						1.2.1.1.1 Modificare l'ambiente di lavoro, prendendosi dal numero il nome della cartella
+						1.2.1.1.2 pushare la cartella
+					
+					1.2.1.2 NOME: 
+						1.2.1.2.2 Controllare se la cartella scelta dall'utente esista nei file da pushare
+						1.2.1.2.2 Modificare l'ambiente di lavoro, mettendo la cartella scelta dall'utente nel paht della cartella di lavoro
+						1.2.1.2.3 pushare la cartella
+						
+			1.2 Pushare tutte le repository
